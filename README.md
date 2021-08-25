@@ -12,3 +12,6 @@ Por: David Alejandro López Torres
 > [Seminario de Proyecto Integrador](./seminario-proyecto)<br>
 > [Sistemas Distribuidos](./sistemas-distribuidos)<br>
 > [Sistemas Embebidos II](./sistemas-embebidos-II)<br>
+
+## Canal de YouTube
+[Code with BuronSuave](https://www.youtube.com/channel/UCoApDS9-1y6QqaZAvMu8AeA)
