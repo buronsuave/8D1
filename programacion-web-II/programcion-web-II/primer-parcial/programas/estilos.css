@@ -1,0 +1,49 @@
+body {
+    padding-left: 11em;
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: #cccccc;
+    background-color: #252525 }
+  header{
+      width:100%;
+      background-color: #252525;
+  }
+  nav{
+      background-color: #252525;
+  }
+  ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+  
+  ul.navbar li {
+    background: #333333;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid #007acc }
+
+  ul.navbar a {
+    text-decoration: none ;
+    color: #cccccc;
+}
+  aside{
+      background: #333333;
+      margin:0px;
+      width: 40%;
+      height: 250px;
+      float: right;
+      padding: 20px;
+      box-sizing:border-box;
+      
+  }
+  address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }

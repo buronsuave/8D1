@@ -1,0 +1,20 @@
+[
+    {
+       "idC": "2",
+       "NombC": "MARIA",
+       "TelC": "321654987",
+       "LimCredC": "12000.00",
+       "BancoC": "BBVA",
+       "CorreoC": "maria@clientes.com",
+       "CiudadC": "TNL"
+    },
+    {
+       "idC": "3",
+       "NombC": "LUIS",
+       "TelC": "987456321",
+       "LimCredC": "15000.00",
+       "BancoC": "BBVA",
+       "CorreoC": "luis@clientes.com",
+       "CiudadC": "TNL"
+    }
+ ]

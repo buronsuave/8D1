@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><root><titulo>Este es un artículo</titulo><visitas number="true">345</visitas><publicado boolean="true">true</publicado><categoria null="true"/><comentarios><nombre>Luisa López</nombre><mensaje>Muy buen artículo</mensaje></comentarios><comentarios><nombre>Carlos Pérez</nombre><mensaje>Artículo muy malo</mensaje></comentarios></root>

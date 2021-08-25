@@ -1,0 +1,20 @@
+[
+    {
+       "id": "2",
+       "nombre": "MARIA",
+       "telefono": "321654987",
+       "credito": "12000.00",
+       "banco": "BBVA",
+       "correo": "maria@clientes.com",
+       "ciudad": "TNL"
+    },
+    {
+       "id": "3",
+       "nombre": "LUIS",
+       "telefono": "987456321",
+       "credito": "15000.00",
+       "banco": "BBVA",
+       "correo": "luis@clientes.com",
+       "ciudad": "TNL"
+    }
+ ]

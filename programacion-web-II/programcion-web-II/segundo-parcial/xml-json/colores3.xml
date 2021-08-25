@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <rojo>#f00</rojo>
+  <verde>#0f0</verde>
+  <azul>#00f</azul>
+  <cyan>#0ff</cyan>
+  <magenta>#f0f</magenta>
+  <amarillo>#ff0</amarillo>
+  <negro>#000</negro>
+</root>

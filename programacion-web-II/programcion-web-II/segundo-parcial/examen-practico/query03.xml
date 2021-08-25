@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="view03.xsl"?>
+<clientes>
+  <cliente id="2">
+    <nombre>MARIA</nombre>
+    <telefono>321654987</telefono>
+    <credito>12000.00</credito>
+    <banco>BBVA</banco>
+    <correo>maria@clientes.com</correo>
+    <ciudad>TNL</ciudad>
+  </cliente>
+  <cliente id="3">
+    <nombre>LUIS</nombre>
+    <telefono>987456321</telefono>
+    <credito>15000.00</credito>
+    <banco>BBVA</banco>
+    <correo>luis@clientes.com</correo>
+    <ciudad>TNL</ciudad>
+  </cliente>
+  <cliente id="7">
+    <nombre>NICK</nombre>
+    <telefono>4561239</telefono>
+    <credito>2000.00</credito>
+    <banco>BANAMEX</banco>
+    <correo>nicck@comercio.mx</correo>
+    <ciudad>TNL</ciudad>
+  </cliente>
+  <cliente id="8">
+    <nombre>NICKY</nombre>
+    <telefono>4561323</telefono>
+    <credito>20000.00</credito>
+    <banco>BANAMEX</banco>
+    <correo>niky@comercio.mx</correo>
+    <ciudad>TNL</ciudad>
+  </cliente>
+</clientes>

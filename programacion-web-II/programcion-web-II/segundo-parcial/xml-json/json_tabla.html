@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Table from JSON</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <style>
+        table {
+            width: 50%;
+        }
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+    </style>
+  <body>
+    <section>
+        <h1>Table from JSON</h1>
+        <div id="contenido">
+            <table id="table">
+                <tr>
+                    <th>Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Hobby</th>
+                    <th>Address</th>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <script type="text/javascript">
+        var data = {
+            "students": 
+                [
+                    {
+                        "name": "David",
+                        "lastName": "Lopez", 
+                        "age": 18,
+                        "hobby": "Coding", 
+                        "address": "Tesistan"
+                    }, 
+                    {
+                        "name": "Andres",
+                        "lastName": "Huerta", 
+                        "age": 19,
+                        "hobby": "Videogaming", 
+                        "address": "South"
+                    }, 
+                    {
+                        "name": "Sergio",
+                        "lastName": "Ruiz", 
+                        "age": 19,
+                        "hobby": "Music Listening", 
+                        "address": "More South"
+                    }, 
+                    {
+                        "name": "Daniel",
+                        "lastName": "Tejeda", 
+                        "age": 19,
+                        "hobby": "Cocking", 
+                        "address": "Galerias"
+                    }, 
+                    {
+                        "name": "Alan",
+                        "lastName": "Lopez", 
+                        "age": 19,
+                        "hobby": "Playing music", 
+                        "address": "Tesistan"
+                    }
+                ]
+        }
+
+        var table = document.getElementById("table");
+        
+        for (var i = 0; i < data.students.length; i++) {
+            var row = document.createElement("tr");
+            var student = data.students[i];
+            row.appendChild(document.createElement("td")).innerHTML = student.name;
+            row.appendChild(document.createElement("td")).innerHTML = student.lastName;
+            row.appendChild(document.createElement("td")).innerHTML = student.age;
+            row.appendChild(document.createElement("td")).innerHTML = student.hobby;
+            row.appendChild(document.createElement("td")).innerHTML = student.address;
+            table.appendChild(row);
+        }
+    </script>
+  </body>
+</html>

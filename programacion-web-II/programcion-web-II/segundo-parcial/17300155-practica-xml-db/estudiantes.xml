@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<estudiantes>
+  <estudiante id="1">
+    <nombre>David</nombre>
+    <apellido>Lopez</apellido>
+    <edad>18</edad>
+  </estudiante>
+  <estudiante id="2">
+    <nombre>Sergio</nombre>
+    <apellido>Ruiz</apellido>
+    <edad>19</edad>
+  </estudiante>
+  <estudiante id="3">
+    <nombre>Andres</nombre>
+    <apellido>Huerta</apellido>
+    <edad>19</edad>
+  </estudiante>
+</estudiantes>

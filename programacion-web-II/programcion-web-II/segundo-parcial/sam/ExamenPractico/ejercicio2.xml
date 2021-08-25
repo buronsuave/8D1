@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Clientes>
+  <Cliente idC="2">
+    <NombC>MARIA</NombC>
+    <TelC>321654987</TelC>
+    <LimCredC>12000.00</LimCredC>
+    <BancoC>BBVA</BancoC>
+    <CorreoC>maria@clientes.com</CorreoC>
+    <CiudadC>TNL</CiudadC>
+  </Cliente>
+  <Cliente idC="3">
+    <NombC>LUIS</NombC>
+    <TelC>987456321</TelC>
+    <LimCredC>15000.00</LimCredC>
+    <BancoC>BBVA</BancoC>
+    <CorreoC>luis@clientes.com</CorreoC>
+    <CiudadC>TNL</CiudadC>
+  </Cliente>
+</Clientes>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <arrayColores>
+    <nombreColor>rojo</nombreColor>
+    <valorHexadec>#f00</valorHexadec>
+  </arrayColores>
+  <arrayColores>
+    <nombreColor>verde</nombreColor>
+    <valorHexadec>#0f0</valorHexadec>
+  </arrayColores>
+  <arrayColores>
+    <nombreColor>azul</nombreColor>
+    <valorHexadec>#00f</valorHexadec>
+  </arrayColores>
+  <arrayColores>
+    <nombreColor>cyan</nombreColor>
+    <valorHexadec>#0ff</valorHexadec>
+  </arrayColores>
+  <arrayColores>
+    <nombreColor>magenta</nombreColor>
+    <valorHexadec>#f0f</valorHexadec>
+  </arrayColores>
+  <arrayColores>
+    <nombreColor>amarillo</nombreColor>
+    <valorHexadec>#ff0</valorHexadec>
+  </arrayColores>
+  <arrayColores>
+    <nombreColor>negro</nombreColor>
+    <valorHexadec>#000</valorHexadec>
+  </arrayColores>
+</root>
