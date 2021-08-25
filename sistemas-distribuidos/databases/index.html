@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function onChange(){
+            const preview = document.querySelector('img');
+            const file = document.querySelector('input[type=file]').files[0];
+            const reader = new FileReader();
+            
+            reader.addEventListener("load", () => {
+                var base64 =reader.result.split(",")[1] 
+                document.getElementById("base64").innerHTML = base64;
+            });
+
+            if (file) {
+                reader.readAsDataURL(file);
+            }
+        }                               
+    </script>
+
+        <input type="file"/>
+        <button onclick="onChange()">Button</button>
+        <h1>Result</h1>
+        <p id="base64"></p>
+</body>
+</html>
